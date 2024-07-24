@@ -3,4 +3,11 @@ src = "src"
 out = "out"
 libs = ["lib"]
 
-# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+[profile.ffi]
+enabled = true
+
+[rpc_endpoints]
+sepolia = "https://sepolia-01.astar.network/"
+osaki = "http://rpc.stg.hypersonicl2.com/"
+shibuya = "https://evm.shibuya.astar.network"
+local = "http://localhost:8545"
